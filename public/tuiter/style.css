@@ -1,0 +1,51 @@
+body {
+  font-family: "Arial";
+  background-color: black;
+  color: white;
+  width: 640px;
+}
+
+hr {
+  border: 1px solid rgb(47, 51, 54);
+}
+
+
+.wd-divider {
+  border: 1px solid rgb(47, 51, 54);
+  padding-top: 12px;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+
+.wd-margin-left {
+  margin-left: 16px;
+}
+
+
+.wd-post-topic {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+}
+
+.wd-c-icon {
+  float: right;
+  margin-right: 12px;
+  font-size: large;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+.wd-float-right {
+  float: right;
+}
+
+.wd-float-done {
+   clear: both;
+}
+
+.wd-color-gray {
+  color: rgb(110, 118, 125);
+}
