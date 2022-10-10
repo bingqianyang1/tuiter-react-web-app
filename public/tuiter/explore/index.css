@@ -1,82 +1,81 @@
-.wd-space {
-  background-color: rbg(47, 51, 54);
-  height: 15px;
+.override-color {
+  background-color: black;
+  color: rgb(192,192,192);
+
 }
 
+.list-group-item.override-navi-bar {
+  background-color: black;
+  color: rgb(192,192,192);
+}
 
-.wd-search-box {
-  border-radius: 30px;
-  background-color: darkgray;
+.active.override-active {
   color: white;
-  border-style: none;
-  padding: 10px;
-  width: 80%;
-  float: left;
-}
-
-
-
-.wd-gear {
-  color: rgb(29,161,242);
-  text-decoration: none;
-  float: right;
-  margin-right: 12px;
-  font-size: x-large;
-
-}
-
-
-
-.wd-nav-tabs {
-  color: rgb(110, 118, 125);
-  font-size: 15px;
   font-weight: bold;
-  padding: 20px 0 0 0;
+  border: none;
+}
+
+.override-icon {
+  font-size: 22px;
+  margin: 5px 10px 5px 0;
 }
 
 
-.wd-nav-tabs .wd-selected {
-  color: rgb(29,161,242);
+
+.input-group.override-bg {
+  background-color: rgb(53,56,57);
+  margin-left: 10px;
+}
+
+
+.card-img.override-img {
+  border: 0.5px solid white;
+}
+
+
+
+.nav-tabs.override-border {
+  border: none;
+}
+
+.nav-link.active.override-nav-active {
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
   border-bottom: solid 3px rgb(29,161,242);
 }
 
-
-.wd-nav-tabs li {
-  list-style-type: none;
-  display: inline;
-  margin: 16px;
-
-}
-
-.wd-nav-tabs li a {
-    color: inherit;
-    text-decoration: none;
-}
-
-
-
-.wd-post-title {
-  color: white;
+.nav-link.override-nav {
+  color: rgb(192,192,192);
   font-weight: bold;
-  font-size: 13px;
-
 }
 
+.list-group.override-corner {
+  border-radius: 20px;
+}
 
-.wd-d-author {
+.list-group-item.override-follow {
+  border: none;
+  background-color: rgb(53,56,57);
+  color: rgb(192,192,192);
+}
+
+.override-follow.override-title {
+  font-size: 1.5em;
+}
+
+.btn-primary.override-button {
+    background-color: rgb(192,192,192);
+    color: black;
+    border: none;
+    font-weight: bold;
+    width: 100px;
+}
+
+.text-primary.override-icon-color {
   color: white;
-  font-weight: bold;
-  font-size: 11px;
-
 }
 
 
 
-.wd-post-img {
-  border-radius: 10px;
-  width: 100px;
-  height: 100px;
-  margin-right: 16px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
